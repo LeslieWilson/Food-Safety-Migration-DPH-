@@ -1,0 +1,102 @@
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.title {
+  font-size: 1em;
+}
+
+.boxContainer {
+  display: flex;
+}
+
+.box1 {
+display:flex;
+  flex-direction:column;
+
+}
+
+.box2 {
+  display:flex;
+  flex-direction:column;
+}
+
+.box3 {
+  display:flex;
+  flex-direction:column;
+}
+
+p{
+  margin:0em;
+  margin-top:.7em;
+
+}
+
+.logoBox{
+  display:flex;
+}
+
+.parentCorp{
+  display:flex;
+
+}
+
+.input1{
+  width:48em;
+}
+
+.input2{
+  width:20em;
+  margin-left:4em;
+  display: flex;
+}
+.input2b{
+  width:20em;
+  margin-left:4em;
+}
+
+.stackedFields{
+  display:flex;
+  flex-direction:column;
+
+}
+
+.input3{
+  width:10em;
+  margin-left:1.5em;
+}
+
+.input4{
+  width:5.6em;
+
+}
+
+.input4b{
+  width:6em;
+  margin-left: 2em;
+}
