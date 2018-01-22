@@ -20,7 +20,6 @@ className="inputM2dropdown"
         </div>
 
 
-
         <div className="MidMid">
         <div className="boxM1">
           <label> Facility Address
@@ -81,13 +80,85 @@ placeholder ="( )-"
 </label>
 </div>
 
+<div className="boxM2">
+<label> Facility Comments
+<textarea
+className="inputM9"
+type="text"
+/>
+</label>
+
+<label> Email
+<input
+className="inputM10"
+type="text"
+/>
+</label>
+</div>
+
+<div className="boxM3">
+<p>Schedules</p>
+<p>Requested</p>
+
+<label> All
+<checkbox
+className="inputCHECK1"
+/>
+</label>
+
+<label> Ind
+<checkbox
+className="inputCHECK2"
+/>
+</label>
+
+<label> I
+<checkbox
+className="inputCHECK2"
+/>
+</label>
+
+<label> II
+<checkbox
+className="inputCHECK3"
+/>
+</label>
+
+<label> III
+<checkbox
+className="inputCHECK4"
+/>
+</label>
+
+<label> IV
+<checkbox
+className="inputCHECK5"
+/>
+</label>
+
+<label> V
+<checkbox
+className="inputCHECK6"
+/>
+</label>
+
+<label> VI
+<checkbox
+className="inputCHECK7"
+/>
+</label>
+
+<label> Specific
+<textarea
+className="inputM11"
+/>
+</label>
+
 
 
 
         </form>
         </div>
-
-
 
 
 
