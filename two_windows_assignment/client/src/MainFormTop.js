@@ -1,4 +1,5 @@
 import React from 'react';
+import SingleInput from './SingleInput'
 
 const MainFormTop = props => {
 return(
@@ -10,95 +11,86 @@ return(
       </div>
 
       <div className="parentCorp">
-      <label> Parent Corperation
-        <input
+        <SingleInput
+          title = "Parent Corperation"
           className="input1"
-          type="text"
+          name="parentCorp"
+          controlFunc={this.handleChange}
         />
-        </label>
         </div>
 
-   <div className="boxContainer">
+    <div className="boxContainer">
+
     <div className="stackedFields1">
+
     <div className="box1">
-      <label> Corperate Mailing Address
-        <input
-          className="input2"
-          type= "text"
+      <SingleInput
+      title = "Corperate Mailing Address"
+      className="input2"
+      name="corpMailing"
+      controlFunc={this.handleChange}
+        />
+        </div>
+
+      <SingleInput
+      title = "City"
+      className="input3"
+      name="city"
         />
 
-        <input
-          className="input2b"
-          type= "text"
+      <SingleInput
+      title = "State"
+      className="input4"
+      name="state"
         />
-      </label>
-      </div>
 
-      <label> City
-        <input
-          className="input3"
-          type="text"
-        />
-      </label>
 
-      <label> State
-        <input
-        className="input4"
-        type="text"
+      <SingleInput
+      title="Zip"
+      className="input4b"
+      name="zip"
         />
-      </label>
-
-      <label> Zip
-        <input
-        className="input4b"
-        type="text"
-        />
-      </label>
     </div>
 
 
+
     <div className="box2">
-      <label> Parent Corperation Contact
-        <input
-        className="input5"
-        type="text"
+      <SingleInput
+      title= "Parent Corperation Contact"
+      className="input5"
+      name="parCorContact"
         />
-      </label>
 
-      <label> Last name
-        <input
-        className="input6"
-        type="text"
+      <SingleInput
+      title= "Last name"
+      className="input6"
+      name="lastnm"
         />
-      </label>
 
-      <label> First name
-        <input
-        className="input7"
-        type="text"
+      <SingleInput
+      title="First name"
+      className="input7"
+      name="firstnm"
         />
-      </label>
 
-      <label> Middle
-        <input
-        className="input8"
-        type="text"
+      <SingleInput
+      title="Middle"
+      className="input8"
+      name="mid"
         />
-      </label>
 
-      <label> Suffix
-        <input
-        className="input9"
-        type="text"
+      <SingleInput
+      title="Suffix"
+      className="input9"
+      name="suf"
         />
-      </label>
 
-      <label> Title
-        <input
-        className="input10"
-        type="text"
+      <SingleInput
+      title="Title"
+      className="input10"
+      name="title"
         />
-      </label>
+
       </div>
 
 
@@ -122,7 +114,6 @@ return(
       </label>
     </form>
   </div>
-
 
 
 )

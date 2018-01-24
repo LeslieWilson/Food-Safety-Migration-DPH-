@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 
 class Checkbox extends Component {
   state = {
@@ -39,7 +39,7 @@ class Checkbox extends Component {
   }
 }
 
-// 
+//
 // Checkbox.propTypes = {
 //   label:PropTypes.string.isRequired,
 //   handleCheckboxChange: PropTypes.func.isRequired,
