@@ -1,5 +1,7 @@
 import React from 'react';
 import SingleInput from './SingleInput'
+import TextArea from './TextArea'
+import Select from './Select'
 
 const MainFormTop = props => {
 return(
@@ -95,23 +97,24 @@ return(
 
 
       <div className="box3">
-      <label> Parent Corperation Comments
-      <textarea
+
+      <TextArea
+      title="Parent Corperation Comments"
       className="input11"
-      type="text"
+      name="title"
       />
-      </label>
-      </div>
-
-
 
       </div>
 
-      <label> Facility Type
-      <select
+
+      </div>
+      <Select
+      title= "Facility Type"
       className="dropdown"
+      name="drpdown"
+      options = {["kansas","new york"]}
       />
-      </label>
+
     </form>
   </div>
 
