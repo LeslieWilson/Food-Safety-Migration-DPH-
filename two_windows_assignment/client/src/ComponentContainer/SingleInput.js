@@ -7,6 +7,7 @@ const SingleInput = (props)=> (
   className={props.className}
   name={props.name}
   type="text"
+  value={props.value}
   onChange={props.controlFunc}
   placeholder={props.placeholder} />
   </div>
