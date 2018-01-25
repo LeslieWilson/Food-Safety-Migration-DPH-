@@ -1,6 +1,6 @@
 import React from 'react';
 import CheckboxContainer from './CheckboxContainer';
-import FormContainer from './FormContainer';
+
 
 const MainFormMiddle = props => {
 return(
@@ -112,7 +112,7 @@ className="inputM11"
 
 </div>
 
-<FormContainer />
+
 <CheckboxContainer />
 
         </form>
