@@ -1,9 +1,9 @@
 import React from 'react';
-import SingleInput from './SingleInput'
-import TextArea from './TextArea'
-import Select from './Select'
-import Box1Top from './Box1Top'
-import Box2Top from './Box2Top'
+import SingleInput from '../ComponentContainer/SingleInput'
+import TextArea from '../ComponentContainer/TextArea'
+import Select from '../ComponentContainer/Select'
+import Box1Top from '../InputContainer/Box1Top'
+import Box2Top from '../InputContainer/Box2Top'
 
 
 const MainFormTop = props => {

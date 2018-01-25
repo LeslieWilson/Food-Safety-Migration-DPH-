@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import MainFormTop from './MainFormTop';
-import MainFormMiddle from './MainFormMiddle';
+import MainFormTop from './FormContainer/MainFormTop';
+import MainFormMiddle from './FormContainer/MainFormMiddle';
 
 
 

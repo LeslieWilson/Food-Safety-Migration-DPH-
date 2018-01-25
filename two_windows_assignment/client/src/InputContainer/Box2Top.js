@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SingleInput from './SingleInput';
+import SingleInput from '../ComponentContainer/SingleInput';
 
 
 class Box2Top extends Component {

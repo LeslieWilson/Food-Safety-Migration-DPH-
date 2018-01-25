@@ -1,5 +1,5 @@
 import React from 'react';
-import CheckboxContainer from './CheckboxContainer';
+import CheckboxContainer from '../InputContainer/CheckboxContainer';
 
 
 const MainFormMiddle = props => {
