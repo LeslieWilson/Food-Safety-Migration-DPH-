@@ -4,6 +4,7 @@ import TextArea from '../ComponentContainer/TextArea'
 import Select from '../ComponentContainer/Select'
 import Box1Top from '../InputContainer/Box1Top'
 import Box2Top from '../InputContainer/Box2Top'
+import Box3Top from '../InputContainer/Box3Top'
 
 
 const MainFormTop = props => {
@@ -11,7 +12,7 @@ return(
   <div>
     <form className="MainFormTop">
       <div className="logoBox">
-        <p>WIN</p>
+        <p>LOGO</p>
         <h1 className="title" >Add new Parent Corperation, Facility and Registration</h1>
       </div>
 
@@ -23,35 +24,15 @@ return(
           controlFunc={this.handleChange}
         />
       </div>
-
     <div className="boxContainer">
-
 
         <Box1Top />
 
         <Box2Top />
 
-
-
-      <div className="box3">
-
-        <TextArea
-          title="Parent Corperation Comments"
-          className="input11"
-          name="title"
-        />
-
-    <Select
-      title= "Facility Type"
-      className="dropdown"
-      name="drpdown"
-      options = {["kansas","new york"]}
-    />
+        <Box3Top />
 
     </div>
-
-    </div>
-
     </form>
   </div>
 
