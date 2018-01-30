@@ -1,0 +1,196 @@
+
+
+.App {
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.MainFormTop {
+  background-color:lightgray;
+}
+
+.boxContainer {
+  display: flex;
+}
+
+.box1 {
+display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+
+}
+
+.box2 {
+  display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+
+}
+
+.box3 {
+  display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+
+}
+
+
+.title {
+  font-size: .7em;
+  font-weight: lighter;
+
+}
+
+.parentCorp{
+  display:flex;
+  background-color: lightgray;
+  margin:.5em;
+
+}
+
+.input1{
+  width:48em;
+
+}
+.logoBox{
+  display:flex;
+  border-bottom: 1px solid blue;
+  background-color: #6Ba5E7;
+
+}
+p{
+  margin:0em;
+  margin-top:.5em;
+
+}
+
+
+.form-label{
+font-size:.7em;
+font-weight:lighter;
+margin:.3em;
+
+}
+
+
+.stackedFields{
+  display:flex;
+  flex-direction:column;
+
+}
+.input2{
+  width:20em;
+  margin-left:2.5em;
+  display: flex;
+  margin-bottom: .2em;
+}
+.input2b{
+  width:20em;
+  margin-left:2em;
+  margin-right:.5em;
+  margin-bottom: .15em;
+}
+
+.input3{
+  width:10em;
+  margin-left:.35em;
+  margin-bottom: .2em;
+}
+
+.input4{
+  width:6em;
+  margin-left:-.3em;
+  margin-bottom: .2em;
+
+}
+
+.input4b{
+  width:6em;
+  margin-left: .6em;
+}
+
+.input5{
+  font-size:.7em;
+  font-weight:lighter;
+  margin-top: .2em;
+  margin-bottom: .1em;
+
+}
+
+.input6{
+  width:13em;
+
+}
+
+
+.input7{
+  width:13em;
+}
+
+.input8{
+  width:5em;
+  margin-left: 1.6em;
+}
+
+.input9{
+  width: .5em;
+}
+
+.input10{
+  width: .5em;
+}
+
+
+.form-input{
+  width:20em;
+  height:8em;
+  margin: .5em;
+
+}
+
+.select-label{
+  font-size:.7em;
+  font-weight:lighter;
+  margin:.3em;
+
+
+}
+
+.form-select{
+
+
+}
