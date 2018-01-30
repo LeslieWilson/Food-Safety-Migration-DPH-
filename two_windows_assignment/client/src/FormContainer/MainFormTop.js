@@ -7,14 +7,21 @@ import Box2Top from '../InputContainer/Box2Top'
 import Box3Top from '../InputContainer/Box3Top'
 
 
+
 const MainFormTop = props => {
 return(
+
   <div>
     <form className="MainFormTop">
       <div className="logoBox">
-        <p>LOGO</p>
+<i class="fa fa-windows" aria-hidden="true"></i>
+        <p>WINLOGO</p>
         <h1 className="title" >Add new Parent Corperation, Facility and Registration</h1>
-      </div>
+        <p>LOGOmin</p>
+        <p>LOGOmax</p>
+        <p>LOGOX</p>
+  </div>
+
 
       <div className="parentCorp">
         <SingleInput
@@ -23,6 +30,7 @@ return(
           name="parentCorp"
           controlFunc={this.handleChange}
         />
+
       </div>
     <div className="boxContainer">
 

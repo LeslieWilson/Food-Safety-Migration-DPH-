@@ -1,40 +1,52 @@
 import React from 'react';
 import CheckboxContainer from '../InputContainer/CheckboxContainer';
-
-
+import SingleInput from '../ComponentContainer/SingleInput';
+import Select from '../ComponentContainer/Select'
 const MainFormMiddle = props => {
 return(
 <div>
-  <form className="MainFormMiddle">
-      <div className="TopMid">
-      <label> DBA
-        <input
-          className="inputM1"
-          type="text"
-        />
-        </label>
 
-<label> STATUS
-<select
+<form className="MainFormMiddle">
+    <div className="TopMid">
+
+    <Select
+    title= "Facility Type"
+    className="dropdown"
+    name="drpdown"
+    options = {["kansas","new york"]}
+    />
+
+      <SingleInput
+      title="DBA"
+          className="inputM1"
+          name="dba"
+          controlFunc={this.handleChange}
+        />
+
+
+<SingleInput
+title="STATUS"
 className="inputM2dropdown"
+name="m2drop"
+controlFunc={this.handleChange}
 />
-</label>
         </div>
 
 
         <div className="MidMid">
         <div className="boxM1">
-          <label> Facility Address
-            <input
-              className="inputM3"
-              type= "text"
+
+
+        <SingleInput
+        title="Facility Address"
+        className="inputM3"
+        type="text"
             />
 
-            <input
+            <SingleInput
               className="input3b"
               type= "text"
             />
-          </label>
           </div>
 
 
