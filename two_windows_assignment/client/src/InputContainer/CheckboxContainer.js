@@ -20,7 +20,7 @@ class CheckboxContainer extends Component {
 
 toggleCheckbox = label =>{
   if (this.selectedCheckboxes.has(label)){
-    this.selectedCheckboxes.delete(label);
+    this.selectedCheckb oxes.delete(label);
   } else {
 
     this.selectedCheckboxes.add(label);
