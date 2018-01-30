@@ -19,12 +19,6 @@ class Box3Top extends Component {
 />
 
 
-<Select
-title= "Facility Type"
-className="dropdown"
-name="drpdown"
-options = {["kansas","new york"]}
-/>
 
 </div>
 
