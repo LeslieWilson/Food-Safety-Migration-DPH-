@@ -1,5 +1,6 @@
 import React from 'react';
 import BoxM1 from '../InputContainer/BoxM1';
+import BoxM2 from '../InputContainer/BoxM2';
 import CheckboxContainer from '../InputContainer/CheckboxContainer';
 import SingleInput from '../ComponentContainer/SingleInput';
 import Select from '../ComponentContainer/Select'
@@ -9,21 +10,10 @@ return(
 <div>
 
  <BoxM1 />
+<BoxM2 />
 
 <div className="MainFormMiddle">
 
-<div className="boxM3">
-
-<p>Schedules</p>
-<p>Requested</p>
-
-
-<TextArea
-title="Specific"
-className="inputM11"
-/>
-
-</div>
 
 
 <CheckboxContainer />

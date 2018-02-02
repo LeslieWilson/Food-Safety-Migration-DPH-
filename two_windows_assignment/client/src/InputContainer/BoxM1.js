@@ -31,7 +31,7 @@ handleChange(event){
 }
 
 
-render() {
+render(){
   console.log(this.state.city)
   return(
 
@@ -44,12 +44,14 @@ render() {
     className="inputM3"
     name="facilAdd"
     type="text"
+    controlFunc={this.handleChange}
         />
 
         <SingleInput
           className="input3b"
           name="facilAdd2"
           type= "text"
+          controlFunc={this.handleChange}
         />
 
       </div>
@@ -59,6 +61,7 @@ render() {
     className="inputM4"
     name="city"
     type="text"
+    controlFunc={this.handleChange}
     />
 
 
@@ -67,6 +70,7 @@ render() {
     className="inputM5"
     name="state"
     type="text"
+    controlFunc={this.handleChange}
     />
 
 
@@ -75,6 +79,7 @@ render() {
     className="inputM6"
     name = "zip2"
     type="text"
+    controlFunc={this.handleChange}
     />
 
 
@@ -83,6 +88,7 @@ render() {
     className="inputM7"
     name="country"
     type="text"
+    controlFunc={this.handleChange}
     />
 
 
@@ -92,6 +98,7 @@ render() {
     name="phone"
     type="text"
     placeholder="( )-"
+    controlFunc={this.handleChange}
     />
 
 
@@ -101,6 +108,7 @@ render() {
     name="fax"
     type="text"
     placeholder ="( )-"
+    controlFunc={this.handleChange}
     />
     </div>
 

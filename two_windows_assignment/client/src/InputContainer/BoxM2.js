@@ -1,38 +1,52 @@
 import React, { Component } from 'react';
-import SingleInput from '../ComponentContainer/SingleInput';
+import TextArea from '../ComponentContainer/TextArea';
+
+
+
+
 
 
 class BoxM2 extends Component {
-  constructor(props)  {
-    super(props);
+  constructor (props) {
+    super (props);
     this.state = {
+      spec:'',
 
     }
-  }
+
   this.handleChange = this.handleChange.bind(this)
 }
 
-handleCHange(event){
+handleChange(event){
   let value = event.target.value
   let name = event.target.name
-  this.setState({[name]: value})
+  this.setState({ [name]: value})
 }
 
-renter() {
+render(){
   console.log(this.state.city)
   return(
 
 
+    <div className="BoxM2">
 
+    <p>Schedules</p>
+    <p>Requested</p>
+
+
+    <TextArea
+    title="Specific"
+    className="inputM11"
+    name="spec"
+    controlFunc={this.handleChange}
+    />
+
+    </div>
 
 
   )
 }
-
-</div>
-
-);
 }
-}
+
 
 export default BoxM2
