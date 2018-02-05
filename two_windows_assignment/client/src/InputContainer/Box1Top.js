@@ -49,6 +49,7 @@ console.log(this.state.city)
         </div>
 
 
+        <div className="state-zip">
       <SingleInput
       title="City"
       className="input3"
@@ -56,22 +57,22 @@ console.log(this.state.city)
       value = {this.state.city}
       controlFunc={this.handleChange}
         />
+        <SingleInput
+        title = "State"
+        className="input4"
+        name="state"
+        value = {this.state.state}
+        controlFunc={this.handleChange}
+          />
+          </div>
 
-      <SingleInput
-      title = "State"
-      className="input4"
-      name="state"
-      value = {this.state.state}
-      controlFunc={this.handleChange}
-        />
-
-      <SingleInput
-      title="Zip"
-      className="input4b"
-      name="zip"
-      value = {this.state.zip}
-      controlFunc={this.handleChange}
-        />
+        <SingleInput
+        title="Zip"
+        className="input4b"
+        name="zip"
+        value = {this.state.zip}
+        controlFunc={this.handleChange}
+          />
 
     </div>
   );
