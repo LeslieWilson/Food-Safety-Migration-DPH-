@@ -52,19 +52,21 @@ render() {
     controlFunc={this.handleChange}
   />
 
-  <SingleInput
-    title="Suffix"
-    className="input9"
-    name="suf"
-    controlFunc={this.handleChange}
-  />
+  <div className="suffix-title">
+    <SingleInput
+      title="Suffix"
+      className="input9"
+      name="suf"
+      controlFunc={this.handleChange}
+        />
 
   <SingleInput
     title="Title"
     className="input10"
     name="title"
     controlFunc={this.handleChange}
-  />
+        />
+    </div>
 
 </div>
 

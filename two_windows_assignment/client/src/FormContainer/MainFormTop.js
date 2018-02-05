@@ -1,5 +1,6 @@
 import React from 'react';
 import SingleInput from '../ComponentContainer/SingleInput'
+import Select from '../ComponentContainer/Select'
 import Box1Top from '../InputContainer/Box1Top'
 import Box2Top from '../InputContainer/Box2Top'
 import Box3Top from '../InputContainer/Box3Top'
@@ -27,7 +28,6 @@ return(
           name="parentCorp"
           controlFunc={this.handleChange}
         />
-
       </div>
     <div className="boxContainer">
 
@@ -38,10 +38,29 @@ return(
         <Box3Top />
 
     </div>
-    </form>
-  </div>
 
-  )
-}
+    <Select
+        title="Facility Type"
+        name="facility-type"
+        options={["some", "random", "options"]}
+      />
+      <div className="dba-status">
+        <SingleInput
+          title="DBA"
+          className="dba"
+        />
 
-export default MainFormTop
+        <Select
+          title="Status"
+          className="status"
+          options={["some", "random", "options"]}
+        />
+      </div>
+
+      </form>
+    </div>
+
+    )
+  }
+
+  export default MainFormTop
