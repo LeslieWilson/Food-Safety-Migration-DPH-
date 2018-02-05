@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TextArea from '../ComponentContainer/TextArea';
 import SingleInput from '../ComponentContainer/SingleInput';
-
+import Select from "..ComponentContainer/Select";
 
 class BoxM1 extends Component {
   constructor (props) {
@@ -15,8 +15,8 @@ class BoxM1 extends Component {
       country:'',
       phone:'',
       fax:'',
-
-
+      email:'',
+      facilityComments:'',
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -36,69 +36,91 @@ render(){
   return(
 
     <div className="MidMid">
-    <div className="boxM1">
+
+    <divclassName="boxM1-container">
+        <div className="boxM1">
 
 
-    <SingleInput
-    title="Facility Address"
-    className="inputM3"
-    name="facilAdd"
-    type="text"
-    controlFunc={this.handleChange}
+        <SingleInput
+            title="Facility Address"
+            className="inputM3"
+            name="facilAdd"
+            type="text"
+            controlFunc={this.handleChange}
         />
 
         <SingleInput
-          className="input3b"
-          name="facilAdd2"
-          type= "text"
-          controlFunc={this.handleChange}
+            className="input3b"
+            name="facilAdd2"
+            type= "text"
+            controlFunc={this.handleChange}
         />
 
-      </div>
-
-    <SingleInput
-    title="City"
-    className="inputM4"
-    name="city"
-    type="text"
-    controlFunc={this.handleChange}
-    />
-
-
-    <SingleInput
-    title="State"
-    className="inputM5"
-    name="state"
-    type="text"
-    controlFunc={this.handleChange}
-    />
+        </div className="city-state">
+            <SingleInput
+                title="City"
+                className="inputM4"
+                name="city"
+                type="text"
+                controlFunc={this.handleChange}
+            />
 
 
-    <SingleInput
-    title="Zip"
-    className="inputM6"
-    name = "zip2"
-    type="text"
-    controlFunc={this.handleChange}
-    />
+            <SingleInput
+                title="State"
+                className="inputM5"
+                name="state"
+                type="text"
+                controlFunc={this.handleChange}
+            />
+
+            </div>
+
+            <Div className = "zip-country">
+            <SingleInput
+                title="Zip"
+                className="inputM6"
+                name = "zip2"
+                type="text"
+                controlFunc={this.handleChange}
+            />
 
 
-    <SingleInput
+    <Select
     title="Country"
     className="inputM7"
     name="country"
     type="text"
     controlFunc={this.handleChange}
+    options={["A", "bunch", "of", "countries"]}
+    placeholder="USA"
     />
+    </div>
+
+    </div>
+
+    <div className="facility-comments-container">
+
+        <TextArea
+            title="Facility Comments"
+            className="facility-comments"
+            name="facilityComments"
+            controlFunc={this.handleChange}
+             />
+
+           </div>
 
 
-    <SingleInput
-    title="Phone"
-    className="inputM7"
-    name="phone"
-    type="text"
-    placeholder="( )-"
-    controlFunc={this.handleChange}
+         </div>
+
+    <div className="phone-fax">
+        <SingleInput
+        title="Phone"
+        className="inputM10"
+        name="phone"
+        type="text"
+        placeholder="( )-"
+        controlFunc={this.handleChange}
     />
 
 
@@ -110,8 +132,15 @@ render(){
     placeholder ="( )-"
     controlFunc={this.handleChange}
     />
-    </div>
 
+    <SingleInput
+        title="Email"
+        className="inputM9"
+        name="email"
+        controlFunc={this.handleChange}
+        />
+    </div>
+</div>
   )
 }
 }
