@@ -1,25 +1,33 @@
 import React from 'react';
 import BoxM1 from '../InputContainer/BoxM1';
 import BoxM2 from '../InputContainer/BoxM2';
-import CheckboxContainer from '../InputContainer/CheckboxContainer';
-import SingleInput from '../ComponentContainer/SingleInput';
-import Select from '../ComponentContainer/Select'
-import TextArea from '../ComponentContainer/TextArea';
+import CheckboxContainerOne from '../InputContainer/CheckboxContainerOne';
+import CheckboxContainerTwo from
+'../InputContainer/CheckboxContainerTwo';
+
 const MainFormMiddle = props => {
 return(
-<div>
+<div className="mid-container">
 
- <BoxM1 />
-<BoxM2 />
+<BoxM1 />
 
-<div className="MainFormMiddle">
+<div className="checkbox-specific-container">
+  <p>Schedules</p>
+  <div className="checkbox-specific">
 
+   <div className="checkbox-container-container">
+     <p className="requested">Requested</p>
+     <div className="checkbox-container">
+      <CheckboxContainerOne />
+      <CheckboxContainerTwo />
+     </div>
+   </div>
 
+   <BoxM2 />
 
-<CheckboxContainer />
-
-        </div>
-        </div>
+  </div>
+ </div>
+</div>
 
 
 

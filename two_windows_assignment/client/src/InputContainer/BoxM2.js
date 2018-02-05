@@ -3,9 +3,6 @@ import TextArea from '../ComponentContainer/TextArea';
 
 
 
-
-
-
 class BoxM2 extends Component {
   constructor (props) {
     super (props);
