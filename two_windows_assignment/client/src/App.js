@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 
 import './MainFormTopStyles.css';
+import './MainFormMiddleStyles.css';
+import './MainFormBottomStyles.css';
 import MainFormTop from './FormContainer/MainFormTop';
 import MainFormMiddle from './FormContainer/MainFormMiddle';
+import MainFormBottom from './FormContainer/MainFormBottom';
 
 
 class App extends Component {
@@ -30,7 +33,8 @@ class App extends Component {
       <div className="App">
 
         <MainFormTop />
-<MainFormMiddle />
+        <MainFormMiddle />
+        <MainFormBottom />
       </div>
     );
   }
