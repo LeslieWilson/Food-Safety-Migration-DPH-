@@ -4,13 +4,9 @@ import Checkbox from '../ComponentContainer/Checkbox';
 
 const items = [
   'All',
-  'Ind',
   'I',
-  'II',
   'III',
-  'IV',
   'V',
-  'VI'
 ];
 
 class CheckboxContainer extends Component {
@@ -57,9 +53,6 @@ render(){
 
           <form onSubmit={this.handleFormSubmit}>
             {this.createCheckboxes()}
-
-            <button className="btn btn-default" type="submit">Insert</button>
-            <button className="btn btn-default" type="submit">Delete</button>
           </form>
         </div>
       </div>

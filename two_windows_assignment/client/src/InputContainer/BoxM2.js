@@ -27,9 +27,6 @@ render(){
 
     <div className="BoxM2">
 
-    <p>Schedules</p>
-    <p>Requested</p>
-
 
     <TextArea
     title="Specific"
@@ -37,6 +34,10 @@ render(){
     name="spec"
     controlFunc={this.handleChange}
     />
+
+    <button className="btn-insert" type="submit">Insert</button>
+    <button className="btn-submit" type="submit">Delete</button>
+
 
     </div>
 
