@@ -17,7 +17,7 @@ return(
         <h1 className="title" >Add new Parent Corperation, Facility and Registration</h1>
         <p>LOGOmin</p>
         <p>LOGOmax</p>
-        <p>LOGOX</p>
+        <p>LOGOX</p >
   </div>
 
 
@@ -28,6 +28,7 @@ return(
           name="parentCorp"
           controlFunc={this.handleChange}
         />
+
       </div>
     <div className="boxContainer">
 
