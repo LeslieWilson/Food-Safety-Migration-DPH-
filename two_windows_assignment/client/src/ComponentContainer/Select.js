@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Select = (props) => (
+const Select = (props)=>(
   <div className="form-group">
   <label className="select-label">{props.title}</label>
   <select
