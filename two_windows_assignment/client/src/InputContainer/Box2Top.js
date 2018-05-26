@@ -60,6 +60,7 @@ render() {
       controlFunc={this.handleChange}
     />
 
+<<<<<<< HEAD
     <SingleInput
       title="Title"
       className="input10"
@@ -67,6 +68,23 @@ render() {
       controlFunc={this.handleChange}
     />
   </div>
+=======
+  <div className="suffix-title">
+    <SingleInput
+      title="Suffix"
+      className="input9"
+      name="suf"
+      controlFunc={this.handleChange}
+        />
+
+  <SingleInput
+    title="Title"
+    className="input10"
+    name="title"
+    controlFunc={this.handleChange}
+        />
+    </div>
+>>>>>>> d2f4aaf886da01d5298791bb0a8520fb1c5fdcfa
 
 </div>
 

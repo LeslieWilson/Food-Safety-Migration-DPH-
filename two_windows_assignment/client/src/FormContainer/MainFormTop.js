@@ -17,7 +17,7 @@ return(
         <h1 className="title" >Add new Parent Corperation, Facility and Registration</h1>
         <p>LOGOmin</p>
         <p>LOGOmax</p>
-        <p>LOGOX</p>
+        <p>LOGOX</p >
   </div>
 
 
@@ -61,7 +61,28 @@ return(
     </form>
   </div>
 
-  )
-}
+    <Select
+        title="Facility Type"
+        name="facility-type"
+        options={["some", "random", "options"]}
+      />
+      <div className="dba-status">
+        <SingleInput
+          title="DBA"
+          className="dba"
+        />
 
-export default MainFormTop
+        <Select
+          title="Status"
+          className="status"
+          options={["some", "random", "options"]}
+        />
+      </div>
+
+      </form>
+    </div>
+
+    )
+  }
+
+  export default MainFormTop

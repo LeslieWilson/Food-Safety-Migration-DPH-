@@ -40,6 +40,10 @@ render(){
       <button className="btn-insert" type="submit">Insert</button>
       <button className="btn-submit" type="submit">Delete</button>
 
+    <button className="btn-insert" type="submit">Insert</button>
+    <button className="btn-submit" type="submit">Delete</button>
+
+
     </div>
 
 

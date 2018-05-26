@@ -31,8 +31,6 @@ class Box3Top extends Component {
 />
 
 
-
-
 </div>
 
     );

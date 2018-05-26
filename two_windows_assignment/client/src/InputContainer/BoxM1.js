@@ -38,6 +38,8 @@ render(){
 
     <div className="MidMid">
 
+    <divclassName="boxM1-container">
+        <div className="boxM1">
 
       <div className="boxM1-container">
         <div className="boxM1">
@@ -143,6 +145,14 @@ render(){
 
     </div>
 
+    <SingleInput
+        title="Email"
+        className="inputM9"
+        name="email"
+        controlFunc={this.handleChange}
+        />
+    </div>
+</div>
   )
 }
 }
