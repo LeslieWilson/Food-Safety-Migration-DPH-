@@ -16,6 +16,7 @@ class Box1Bottom extends Component {
     let value = event.target.value
     let name = event.target.name
     this.setState({ [name]: value })
+     console.log(this.state.license)
   }
 
   render(){
@@ -37,6 +38,7 @@ class Box1Bottom extends Component {
           value = {this.state.issued}
           controlFunc={this.handleChange}
           placeholder = " / /"
+
         />
 
         <SingleInput
