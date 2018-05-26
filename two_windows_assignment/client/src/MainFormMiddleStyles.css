@@ -1,0 +1,145 @@
+.mid-container{
+  background-color: lightgrey;
+}
+
+input{
+  margin-bottom: .3em;
+}
+.inputM3{
+  display: block;
+}
+
+.MidMid{
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+}
+
+.mid-container{
+  display: flex;
+}
+
+.city-state{
+  display: flex;
+}
+
+.zip-country{
+  display: flex;
+}
+
+.phone-fax{
+  display: flex;
+}
+
+.checkbox-specific-container{
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+}
+
+.checkbox-specific{
+  display: flex;
+}
+
+.checkbox-container{
+  display: flex;
+}
+
+.boxM1-container{
+  display: flex;
+
+}
+
+.inputM3{
+  margin-left: 3.8em;
+  width: 20em;
+}
+
+.input3b{
+  margin-left: 3.2em;
+  width: 20em;
+}
+
+.inputM4{
+  margin-left: 1.4em;
+  margin-right: 3em;
+  width: 10em;
+}
+
+.inputM5{
+  margin-left: .3em;
+  width: 3.25em;
+}
+
+.inputM6{
+  margin-left: 1.7em;
+  margin-right: 1em;
+  width: 6em;
+}
+
+.inputM7{
+  margin-left: .3em;
+  margin-right: .5em;
+  width: 10em;
+}
+
+.inputM10{
+  margin-left: .3em;
+  width: 7.5em;
+}
+
+.inputM8{
+  margin-left: .3em;
+  width: 7.5em;
+  margin-right: 1em;
+}
+
+.inputM9{
+  width: 12.4em;
+  margin-left: .3em;
+}
+
+.facility-comments{
+  height: 6.5em;
+  margin-right: 1em;
+  width: 12.9em;
+}
+
+.inputM11{
+  height: 5em;
+  width: 15em;
+  margin-right: .6em;
+}
+
+.checkbox-container-container{
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+}
+
+p{
+  font-size: .7em;
+  font-weight: lighter;
+  margin-left: .4em;
+}
+
+button{
+  height: 1.5em;
+  width: 4.2em;
+  padding: .5px 7px 2px;
+}
+
+.btn-insert{
+  margin-left: 3em;
+  margin-right: .5em;
+  margin-top: .5em;
+}
+
+label{
+  font-size: .7em;
+  font-weight: lighter;
+  margin-right: .7em;
+}

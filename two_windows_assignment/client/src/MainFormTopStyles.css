@@ -48,6 +48,10 @@ display:flex;
 
 }
 
+.state-zip{
+  display:flex;
+}
+
 .box2 {
   display:flex;
   flex-direction:column;
@@ -58,6 +62,10 @@ display:flex;
 
 }
 
+.suffix-title{
+  display:flex;
+}
+
 .box3 {
   display:flex;
   flex-direction:column;
@@ -66,6 +74,11 @@ display:flex;
   margin:.2em;
   margin-top:.2em;
 
+}
+
+.text-area-group{
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -92,6 +105,7 @@ display:flex;
   background-color: #6Ba5E7;
 
 }
+
 p{
   margin:0em;
   margin-top:.5em;
@@ -112,43 +126,41 @@ margin:.3em;
   flex-direction:column;
 
 }
+
 .input2{
   width:20em;
-  margin-left:2.5em;
+  margin-left:3.8em;
   display: flex;
-  margin-bottom: .2em;
 }
+
 .input2b{
   width:20em;
-  margin-left:2em;
+  margin-left:3.2em;
   margin-right:.5em;
-  margin-bottom: .15em;
 }
 
 .input3{
-  width:10em;
-  margin-left:.35em;
-  margin-bottom: .2em;
+  margin-left: 1.4em;
+  margin-right: 3em;
+  width: 10em;
 }
 
 .input4{
-  width:6em;
-  margin-left:-.3em;
-  margin-bottom: .2em;
+  width:3.25em;
+  margin-left:.3em;
 
 }
 
 .input4b{
   width:6em;
-  margin-left: .6em;
+  margin-left: 1.7em;
 }
 
 .input5{
   font-size:.7em;
   font-weight:lighter;
+  margin-left: .2em;
   margin-top: .2em;
-  margin-bottom: .1em;
-
 }
 
 .input6{
@@ -159,6 +171,7 @@ margin:.3em;
 
 .input7{
   width:13em;
+  margin-right: .3em;
 }
 
 .input8{
@@ -167,17 +180,19 @@ margin:.3em;
 }
 
 .input9{
-  width: .5em;
+  width: 2em;
+  margin-left: 2.3em;
 }
 
 .input10{
-  width: .5em;
+  width: 7.5em;
+  margin-left: .4em;
 }
 
 
-.form-input{
-  width:20em;
-  height:8em;
+.input11{
+  width:18.6em;
+  height:6em;
   margin: .5em;
 
 }
@@ -190,6 +205,20 @@ margin:.3em;
 
 }
 
+
 .form-select{
 
+}
+
+.dba-status{
+  display: flex;
+  margin-left: 10em;
+}
+
+.dba{
+  width: 33em;
+}
+
+.status{
+  width: 12em;
 }

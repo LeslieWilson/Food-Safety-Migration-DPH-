@@ -5,7 +5,6 @@ import TextArea from '../ComponentContainer/TextArea';
 
 
 
-
 class BoxM2 extends Component {
   constructor (props) {
     super (props);
@@ -30,16 +29,16 @@ render(){
 
     <div className="BoxM2">
 
-    <p>Schedules</p>
-    <p>Requested</p>
 
+      <TextArea
+      title="Specific"
+      className="inputM11"
+      name="spec"
+      controlFunc={this.handleChange}
+      />
 
-    <TextArea
-    title="Specific"
-    className="inputM11"
-    name="spec"
-    controlFunc={this.handleChange}
-    />
+      <button className="btn-insert" type="submit">Insert</button>
+      <button className="btn-submit" type="submit">Delete</button>
 
     </div>
 

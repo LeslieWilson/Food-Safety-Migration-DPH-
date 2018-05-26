@@ -1,0 +1,55 @@
+.bottom-container-container{
+  background-color: lightgrey;
+}
+
+.bottom-container{
+  display: flex;
+  background-color: lightgrey;
+}
+
+.Box1Bottom{
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+}
+
+.Box2Bottom{
+  border-style:solid;
+  border-width:.07em;
+  margin:.2em;
+  margin-top:.2em;
+  width: 25em;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+}
+
+button.folder-label{
+  width: 11.5em;
+  height: 4em;
+  margin-top: 3rem;
+}
+
+button.placeholder{
+  width: auto;
+  height: 2em;
+  margin: .5em;
+}
+
+.placeholder-input{
+  margin-left: 5em;
+}
+
+.issued{
+  margin-left: .5em;
+  margin-right: .3em;
+}
+
+.transactions{
+  width: 5em;
+  height: 1.7em;
+  margin-top: .2em;
+}

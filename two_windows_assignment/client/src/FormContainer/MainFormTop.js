@@ -1,5 +1,6 @@
 import React from 'react';
 import SingleInput from '../ComponentContainer/SingleInput'
+import Select from '../ComponentContainer/Select'
 import Box1Top from '../InputContainer/Box1Top'
 import Box2Top from '../InputContainer/Box2Top'
 import Box3Top from '../InputContainer/Box3Top'
@@ -12,7 +13,7 @@ return(
   <div>
     <form className="MainFormTop">
       <div className="logoBox">
-        <p>WINLOGO</p>
+        <p>LOGO</p>
         <h1 className="title" >Add new Parent Corperation, Facility and Registration</h1>
         <p>LOGOmin</p>
         <p>LOGOmax</p>
@@ -38,6 +39,25 @@ return(
         <Box3Top />
 
     </div>
+
+    <Select
+      title="Facility Type"
+      name="facility-type"
+      options={["some", "random", "options"]}
+    />
+    <div className="dba-status">
+      <SingleInput
+        title="DBA"
+        className="dba"
+      />
+
+      <Select
+        title="Status"
+        className="status"
+        options={["some", "random", "options"]}
+      />
+    </div>
+
     </form>
   </div>
 
